@@ -8,5 +8,5 @@
 - Arduino Projects - [Github](https://github.com/adinath1)
 
 #### About Me
-I am Adinath,studying in DPS, ECity in 7th grade. I have started Electronics and IOT projects since the age of 7.
+I am Adinath,studying in DPS, ECity in 7th grade. I have started Electronics and IOT projects since the age of 6.
 You can see my older videos in my Youtube channel.
