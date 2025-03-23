@@ -1,4 +1,4 @@
-## This repo is about usage of VSDSQadron FPGA mini.
+## VSDSQadron FPGA mini.
 #### Index
 - Demo of VSDSQadron mini - Using as clockpulse for a Dual JK Flipflop
 - Using VSDSQuadron FPGA mini to generate external clock pulse - blinking external LED
