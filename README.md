@@ -9,4 +9,4 @@
 
 #### About Me
 I am Adinath,studying in DPS, ECity in 7th grade. I have started Electronics and IOT projects since the age of 6.
-My first video is [here](https://youtu.be/g-n4ke9fU28?si=2XgxpJ7E8sG3DpV3)
+My first video is [here](https://youtu.be/bTe3yqetUJ8?si=-_Z9lYrPe1X13kKg)
