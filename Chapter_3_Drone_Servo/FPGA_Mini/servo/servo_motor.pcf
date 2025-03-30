@@ -1,0 +1,3 @@
+set_io  pwm 13
+set_io  duty 39
+set_io  clk 40

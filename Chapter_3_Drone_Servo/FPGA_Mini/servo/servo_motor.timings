@@ -1,0 +1,70 @@
+
+icetime topological timing analysis report
+==========================================
+
+Report for critical path:
+-------------------------
+
+        lc40_17_4_4 (LogicCell40) [clk] -> lcout: 1.491 ns
+     1.491 ns net_64644 (counter[4])
+        t467 (LocalMux) I -> O: 1.099 ns
+        inmux_18_4_72355_72377 (InMux) I -> O: 0.662 ns
+        lc40_18_4_0 (LogicCell40) in1 -> lcout: 1.232 ns
+     4.484 ns net_68471 (counter_SB_DFFSR_Q_R_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI)
+        t514 (LocalMux) I -> O: 1.099 ns
+        inmux_18_5_72466_72501 (InMux) I -> O: 0.662 ns
+        t298 (CascadeMux) I -> O: 0.000 ns
+        lc40_18_5_0 (LogicCell40) in2 -> carryout: 0.609 ns
+     6.855 ns t279
+        lc40_18_5_1 (LogicCell40) carryin -> carryout: 0.278 ns
+     7.133 ns t280
+        lc40_18_5_2 (LogicCell40) carryin -> carryout: 0.278 ns
+     7.411 ns t281
+        lc40_18_5_3 (LogicCell40) carryin -> carryout: 0.278 ns
+     7.689 ns t282
+        lc40_18_5_4 (LogicCell40) carryin -> carryout: 0.278 ns
+     7.967 ns t283
+        lc40_18_5_5 (LogicCell40) carryin -> carryout: 0.278 ns
+     8.245 ns t284
+        lc40_18_5_6 (LogicCell40) carryin -> carryout: 0.278 ns
+     8.524 ns t285
+        lc40_18_5_7 (LogicCell40) carryin -> carryout: 0.278 ns
+     8.802 ns net_72540 (counter_SB_DFFSR_Q_R_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI)
+        t291 (ICE_CARRY_IN_MUX) carryinitin -> carryinitout: 0.556 ns
+        lc40_18_6_0 (LogicCell40) carryin -> carryout: 0.278 ns
+     9.636 ns t292
+        lc40_18_6_1 (LogicCell40) carryin -> carryout: 0.278 ns
+     9.914 ns t293
+        lc40_18_6_2 (LogicCell40) carryin -> carryout: 0.278 ns
+    10.192 ns t294
+        lc40_18_6_3 (LogicCell40) carryin -> carryout: 0.278 ns
+    10.470 ns net_72639 ($nextpnr_ICESTORM_LC_3$I3)
+        inmux_18_6_72639_72649 (InMux) I -> O: 0.662 ns
+        lc40_18_6_4 (LogicCell40) in3 -> lcout: 0.874 ns
+    12.007 ns net_68721 (counter_SB_DFFSR_Q_R_SB_LUT4_O_I2)
+        t531 (LocalMux) I -> O: 1.099 ns
+        inmux_17_6_68778_68817 (InMux) I -> O: 0.662 ns
+        t295 (CascadeMux) I -> O: 0.000 ns
+        lc40_17_6_4 (LogicCell40) in2 -> lcout: 1.205 ns
+    14.974 ns net_64890 (counter_SB_DFFSR_Q_R)
+        odrv_17_6_64890_64673 (Odrv4) I -> O: 0.649 ns
+        t513 (Span4Mux_h4) I -> O: 0.543 ns
+        t512 (Span4Mux_v2) I -> O: 0.450 ns
+        t511 (LocalMux) I -> O: 1.099 ns
+        t510 (IoInMux) I -> O: 0.662 ns
+        t509 (ICE_GB) USERSIGNALTOGLOBALBUFFER -> GLOBALBUFFEROUTPUT: 1.589 ns
+        t508 (gio2CtrlBuf) I -> O: 0.000 ns
+        t507 (GlobalMux) I -> O: 0.278 ns
+    20.245 ns seg_15_6_glb_netwk_0_5
+
+Resolvable net names on path:
+     1.491 ns ..  3.252 ns counter[4]
+     4.484 ns ..  6.245 ns counter_SB_DFFSR_Q_R_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI
+     8.802 ns ..  9.358 ns counter_SB_DFFSR_Q_R_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI
+    10.470 ns .. 11.133 ns $nextpnr_ICESTORM_LC_3$I3
+    12.007 ns .. 13.768 ns counter_SB_DFFSR_Q_R_SB_LUT4_O_I2
+    14.974 ns .. 15.623 ns counter_SB_DFFSR_Q_R
+
+Total number of logic levels: 16
+Total path delay: 20.24 ns (49.40 MHz)
+
