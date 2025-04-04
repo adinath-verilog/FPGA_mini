@@ -19,6 +19,8 @@ env GDK_BACKEND=x11 putty
 By default, the serial port will be /dev/ttyUSB0. If not, you can check using the dmesg command and grep for tty, to get the active serial port.
 Use a baud rate of 9600Hz as shown in my video.
 
+![Screenshot](https://github.com/adinath-verilog/FPGA_mini/blob/main/Chapter_4_Serial_Communication_UART/Screenshot%20from%202025-04-04%2012-47-59.png)
+
 ## How does it work?
 The UART protocol is implemented in the module uart_trx.v file.
 It works in one direction only, i.e., it sends data without having a provision to receive the data back from the receiver.
