@@ -1,0 +1,11 @@
+set_io trigpin 38
+set_io echopin 42
+set_io led 34
+set_io led1 2
+set_io led2 4
+set_io led3 47
+set_io led4 48
+set_io led5 3
+set_io led6 6
+set_io led7 9
+set_io led8 10
